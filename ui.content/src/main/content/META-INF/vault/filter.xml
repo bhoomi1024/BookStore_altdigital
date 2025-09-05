@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bookstore" mode="merge"/>
+    <filter root="/content/bookstore" mode="merge"/>
+    <filter root="/content/dam/bookstore" mode="merge">
+        <exclude pattern="/content/dam/bookstore(/.*)?"/>
+        <include pattern="/content/dam/bookstore/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bookstore/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bookstore" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/bookstore" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/bookstore" mode="merge"/>
+    <filter root="/content/dam/bookstore/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/bookstore/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/bookstore/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
